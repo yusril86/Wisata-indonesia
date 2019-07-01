@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassingData"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:src="@color/colorAccent"
+        android:id="@+id/img_passing"
+        />
+
+    <TextView
+
+        android:id="@+id/tv_psg_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Judul"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_margin="17dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="32sp"
+        android:background="#25d7a5"
+        />
+    <TextView
+        android:id="@+id/tv_psg_alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Jl. Latassakka, Lumpue, Bacukiki Bar., Kota Pare-Pare, Sulawesi Selatan 91123"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="16dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:background="#25d7a5"
+        android:textSize="32sp"
+        />
+    <TextView
+        android:id="@+id/tv_psg_deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Deskripsi"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_margin="16dp"
+        />
+</LinearLayout>
